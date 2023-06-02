@@ -394,7 +394,10 @@ media: https://media.tenor.com/GZtZgAQ0E4cAAAAd/excited-omg.gif
 
 - Avoids underfetching
 
-- Single entry point
+- Single entry point VS multiple:
+  - /users/{id}
+  - /users/{id}/posts
+  - /users/{id}/followers
 
 <!--
 Comparación con las APIs tradicionales
